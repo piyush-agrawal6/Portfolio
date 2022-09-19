@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 const Header = () => {
   /* Toggle menu */
   const [toggle, setToggle] = useState(false);
