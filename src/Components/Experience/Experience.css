@@ -1,0 +1,82 @@
+.experience_container {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+.timeline {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem;
+  border-radius: 1.25rem;
+}
+.timeline_item {
+  position: relative;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+.timeline_item:last-child {
+  padding-bottom: 0;
+}
+.timeline_item::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background-color: var(--text-color);
+  left: 0.25rem;
+  top: 0;
+}
+.timeline i {
+  position: absolute;
+  left: -0.4375rem;
+  top: 0;
+  font-size: var(--h2-font-size);
+  color: var(--text-color);
+  background-color: white;
+  padding: 0.4rem 0;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .experience_container {
+    grid-template-columns: 450px;
+    justify-content: center;
+    row-gap: 1.5rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 570px) {
+  .experience_container {
+    grid-template-columns: 400px;
+  }
+  .timeline {
+    padding: 1rem 2rem;
+  }
+  .timeline_item {
+    padding-left: 2.2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 420px) {
+  .experience_container {
+    grid-template-columns: 300px;
+  }
+  .timeline {
+    padding: 1rem 1rem;
+  }
+  .timeline_item {
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .timeline_date{
+       font-size: 0.8rem;
+  }
+  .timeline_title{
+       font-size: 1rem;
+  }
+  .timeline_text{
+       font-size: 0.9rem;
+  }
+}
