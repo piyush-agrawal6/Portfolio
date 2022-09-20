@@ -5,16 +5,13 @@ https://dribbble.com/
 https://github.com/
 
 .home__name
-John Smith
+Piyush Agrawal
 
 .home__education
-Visual Designer
+MERN Stack Developer
 
 .home__description
 I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
-
-.home__scroll-name
-Scroll Down
 
 ========== ABOUT ==========
 .section__title | .section__subtitle

@@ -193,7 +193,7 @@ img {
   }
 
   .section {
-    padding: 2rem 0 4rem;
+    padding: 0rem 0 4rem;
   }
 
   .section__subtitle {
@@ -213,5 +213,13 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+  .button {
+    padding: 0.7rem 1.3rem;
+  }
+
+  .button__icon {
+    width: 18px;
+    height: 18px;
   }
 }
