@@ -1,0 +1,133 @@
+.projects_filters {
+  display: flex;
+  align-items: center;
+  column-gap: 1.875rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+.projects_item {
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  background-color: var(--text-color);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+.projects_item:hover {
+  background-color: var(--title-color);
+}
+.projects_container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.projects_card {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+}
+.projects_title {
+  padding: 0.5rem 1rem;
+}
+.projects_mask {
+  background: var(--text-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.projects_category {
+  color: white;
+  background-color: var(--title-color);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  font-size: var(--small-font-size);
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  transform: translateY(-40px);
+  transition: 0.3s;
+}
+.projects_desc {
+  color: white;
+  font-size: var(--small-font-size);
+  margin: 0 0 0 1rem;
+  padding: 0 1rem;
+  position: absolute;
+  top: 3.75rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
+.projects_button {
+  color: white;
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: var(--small-font-size);
+  display: block;
+  background-color: var(--title-color);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0;
+}
+.link {
+  left: 1.5rem;
+}
+.github {
+  left: 5rem;
+}
+.projects_button i {
+  font-size: 1.4rem;
+}
+.projects_card:hover .projects_button {
+  opacity: 1;
+}
+.projects_card:hover .projects_mask {
+  opacity: 0.9;
+}
+.projects_card:hover .projects_desc,
+.projects_card:hover .projects_category {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* For medium devices */
+@media screen and (max-width: 850px) {
+  .projects_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.7rem;
+  }
+  .projects_filters {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .projects_title {
+    font-size: 1rem;
+  }
+}

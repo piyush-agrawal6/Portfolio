@@ -30,14 +30,14 @@ const Header = () => {
             </li>
 
             <li className="nav_item" onClick={() => setToggle(!toggle)}>
-              <a href="#porfolio" className="nav_link">
+              <a href="#projects" className="nav_link">
                 <i className="uil uil-scenery nav_icon"></i>
                 Projects
               </a>
             </li>
             <li className="nav_item" onClick={() => setToggle(!toggle)}>
-              <a href="#contact" className="nav_link">
-                <i className="uil uil-message nav_icon"></i>
+              <a href="#blogs" className="nav_link">
+                <i class="uil uil-blogger-alt nav_icon"></i>
                 Blogs
               </a>
             </li>
