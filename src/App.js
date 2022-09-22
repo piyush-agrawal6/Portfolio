@@ -7,11 +7,11 @@ import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Blog from "./Components/Blogs/Blog";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Contact from "./Components/Contact/Contact";
 function App() {
   return (
     <>
       <Header />
-
       <main className="main">
         <Home />
         <About />
@@ -20,6 +20,7 @@ function App() {
         <Projects />
         <Blog />
         <Testimonials />
+        <Contact />
       </main>
     </>
   );

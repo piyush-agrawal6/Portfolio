@@ -1,7 +1,2 @@
-.contact__button
-mailto:examplemail@gmail.com.com
 
-https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!
-
-.footer__copy
 &#169; Crypticalcoder. All rigths reserved
