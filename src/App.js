@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
+import Pro from "./Components/Pro/pro";
 import Blog from "./Components/Blogs/Blog";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
@@ -18,10 +19,10 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Experience />
-        <Projects />
-        <Blog />
-        <Testimonials />
+        {/* <Experience /> */}
+        <Pro />
+        {/* <Blog /> */}
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

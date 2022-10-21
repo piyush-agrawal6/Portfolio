@@ -1,0 +1,94 @@
+.projects_filters {
+  display: flex;
+  align-items: center;
+  column-gap: 1.875rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+.projects_item {
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  background-color: var(--text-color);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+.projects_item:hover {
+  background-color: var(--title-color);
+}
+.projects_container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.projects_card {
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+}
+.projects_thumbnail img {
+  border-radius: 10px;
+}
+.projects_button_div {
+  display: flex;
+}
+.projects_desc {
+  color: black;
+  font-size: var(--small-font-size);
+  margin: 0.3rem 0;
+}
+.projects_button {
+  color: black;
+  bottom: 1.5rem;
+  font-size: var(--small-font-size);
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(231, 229, 229);
+}
+.projects_button i {
+  padding: 5px;
+}
+.projects_button :hover {
+  background-color: rgb(190, 179, 179);
+}
+.link {
+  left: 1.5rem;
+}
+.github {
+  left: 5rem;
+}
+.projects_button i {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .projects_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.7rem;
+  }
+  .projects_filters {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .projects_title {
+    font-size: 1rem;
+  }
+}

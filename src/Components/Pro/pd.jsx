@@ -15,6 +15,7 @@ const ProjectData = [
       "A really good job, all aspects of the project were followed step by step and with good results",
     project: "link",
     github: "link",
+    Tech: "HTML CSS JavaScript React",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const ProjectData = [
     category: "React",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
+    Tech: "HTML CSS JavaScript React",
     project: "link",
     github: "link",
   },
@@ -35,38 +37,42 @@ const ProjectData = [
       "A really good job, all aspects of the project were followed step by step and with good results.",
     project: "link",
     github: "link",
+    Tech: "HTML CSS JavaScript React",
   },
 
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
+    title: "Onboarding",
     category: "Html",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
     project: "link",
     github: "link",
+    Tech: "HTML CSS JavaScript React",
   },
 
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
+    title: "iMac Mockup",
     category: "React",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
     project: "link",
     github: "link",
+    Tech: "HTML CSS JavaScript React",
   },
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
+    title: "Game Store ",
     category: "MERN",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
     project: "link",
     github: "link",
+    Tech: "HTML CSS JavaScript React",
   },
 ];
 
