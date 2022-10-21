@@ -23,7 +23,7 @@
 }
 .projects_card {
   overflow: hidden;
-  padding: 0.5rem 1rem;
+  padding:1.5rem;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1.25rem;
@@ -31,13 +31,16 @@
 .projects_thumbnail img {
   border-radius: 10px;
 }
+.projects_thumbnail h3 {
+  margin-top: 10px;
+}
 .projects_button_div {
   display: flex;
 }
 .projects_desc {
   color: black;
   font-size: var(--small-font-size);
-  margin: 0.3rem 0;
+  margin: 10px 0;
 }
 .projects_button {
   color: black;

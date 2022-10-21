@@ -1,78 +1,78 @@
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
-import Work6 from "../../assets/work-6.svg";
+import Work1 from "../../assets/work-1.png";
+import Work2 from "../../assets/work-2.png";
+import Work3 from "../../assets/work-3.png";
+import Work4 from "../../assets/work-4.png";
+import Work5 from "../../assets/work-5.png";
+import Work6 from "../../assets/work-6.png";
 
 const ProjectData = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management",
+    title: "ShopBag",
     category: "MERN",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results",
-    project: "link",
-    github: "link",
-    Tech: "HTML CSS JavaScript React",
+      "It is a ecommerce website with different categories and login signup functionality with checkout.",
+    project: "https://shopbag-ecommerce.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/ShopBag-Ecommerce-Website",
+    Tech: "MERN Stack",
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App",
+    title: "Food Bonanza",
     category: "React",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-    Tech: "HTML CSS JavaScript React",
-    project: "link",
-    github: "link",
+      "Responsive restaurant website created using React Js. A figma file has been used for the overall design. ",
+    Tech: "HTML CSS React",
+    project: "https://food-bonanzaa.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Restaurant-Website",
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App",
-    category: "JavaScript",
+    title: "Expedia Clone",
+    category: "React",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-    project: "link",
-    github: "link",
-    Tech: "HTML CSS JavaScript React",
+      "A travel website where users can book airline tickets, hotel and vacation package.",
+    project: "https://expedia-co-in.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Expedia-Clone",
+    Tech: "React Chackra UI",
   },
 
   {
     id: 4,
     image: Work4,
-    title: "Onboarding",
-    category: "Html",
+    title: "Youtube Clone",
+    category: "JavaScript",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-    project: "link",
-    github: "link",
-    Tech: "HTML CSS JavaScript React",
+      "User can search for any video and can play it. YouTube APIhas been used to fetch the videos.",
+    project: "https://youtube-clone-jsonly.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/youtube-clone-js",
+    Tech: "HTML CSS JavaScript",
   },
 
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup",
-    category: "React",
+    title: "Lovoda Clone",
+    category: "JavaScript",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-    project: "link",
-    github: "link",
-    Tech: "HTML CSS JavaScript React",
+      "Lovoda clone with all functionalities like searching, adding products to cart, favourites and checkout.",
+    project: "https://clone-of-lovoda-dot-com.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Lovoda-Clone",
+    Tech: "HTML CSS JavaScript",
   },
   {
     id: 6,
     image: Work6,
-    title: "Game Store ",
-    category: "MERN",
+    title: "NiftyPM Clone",
+    category: "JavaScript",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-    project: "link",
-    github: "link",
-    Tech: "HTML CSS JavaScript React",
+      "A project management website where user can add a public or private project and can keep track.",
+    project: "https://nifty-pm.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/NiftyPM-clone",
+    Tech: "HTML CSS JavaScript",
   },
 ];
 

@@ -29,9 +29,6 @@ const Projects = () => {
         >
           JAVASCRIPT
         </span>
-        <span className="projects_item" onClick={() => filterItem("Html")}>
-          HTML
-        </span>
       </div>
       <div className="projects_container grid">
         {item.map((elem) => {
@@ -47,10 +44,18 @@ const Projects = () => {
                 <b>Tech Stack</b> - {Tech}
               </p>
               <div className="projects_button_div">
-                <a href={project} className="projects_button link ">
+                <a
+                  href={project}
+                  className="projects_button link"
+                  target="blank"
+                >
                   <i class="bx bx-link"></i>
                 </a>
-                <a href={github} className="projects_button github">
+                <a
+                  href={github}
+                  className="projects_button github"
+                  target="blank"
+                >
                   <i class="bx bxl-github"></i>
                 </a>
               </div>
