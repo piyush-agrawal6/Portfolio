@@ -36,15 +36,15 @@ const Header = () => {
               </a>
             </li>
             <li className="nav_item" onClick={() => setToggle(!toggle)}>
-              <a href="#blog" className="nav_link">
-                <i class="uil uil-blogger-alt nav_icon"></i>
-                Resume
-              </a>
-            </li>
-            <li className="nav_item" onClick={() => setToggle(!toggle)}>
               <a href="#contact" className="nav_link">
                 <i className="uil uil-message nav_icon"></i>
                 Contact
+              </a>
+            </li>
+            <li className="nav_item" onClick={() => setToggle(!toggle)}>
+              <a href="#blog" className="nav_link">
+                <i class="uil uil-blogger-alt nav_icon"></i>
+                Resume
               </a>
             </li>
           </ul>
