@@ -11,6 +11,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ScrollUp from "./Components/ScrollUp/ScrollUp";
+import Github from "./Components/Github/Github";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         {/* <Experience /> */}
         <Pro />
+        <Github />
         {/* <Blog /> */}
         {/* <Testimonials /> */}
         <Contact />
