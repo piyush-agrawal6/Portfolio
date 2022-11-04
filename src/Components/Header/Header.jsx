@@ -42,7 +42,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav_item" onClick={() => setToggle(!toggle)}>
-              <a href="#blog" className="nav_link">
+              <a href="#resume" className="nav_link">
                 <i class="uil uil-blogger-alt nav_icon"></i>
                 Resume
               </a>

@@ -12,6 +12,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ScrollUp from "./Components/ScrollUp/ScrollUp";
 import Github from "./Components/Github/Github";
+import Resume from "./Components/Resume/Resume";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
         {/* <Blog /> */}
         {/* <Testimonials /> */}
         <Contact />
+        <Resume />
       </main>
       <Footer />
       <ScrollUp />

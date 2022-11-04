@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="contact_info">
             <div className="contact_card">
               <i className="bx bx-mail-send contact_card_icon"></i>
-              <h3 className="contact_card_title">Email</h3>
+              <h3 className="contact_card_title">+91-8144110261</h3>
               <span className="contact_card_data">agrawaljoy1@gmail.com</span>
               <a
                 href="mailto:test@example.com?subject=Testing out mailto!"
@@ -37,14 +37,14 @@ const Contact = () => {
               </a>
             </div>
             <div className="contact_card">
-              <i className="bx bxl-whatsapp contact_card_icon"></i>
-              <h3 className="contact_card_title">Whatsapp</h3>
-              <span className="contact_card_data">+91-8144110261</span>
+              <i className="bx bxl-github contact_card_icon"></i>
+              <h3 className="contact_card_title">Github</h3>
+              <span className="contact_card_data">piyush-agrawal6</span>
               <a
-                href="https://api.whatsapp.com/send?phone=8144110261&text=Hello, more information!"
+                href="https://github.com/piyush-agrawal6"
                 className="contact_button"
               >
-                Write me
+                Checkout
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
               </a>
             </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/the-piyush-agrawal/"
                 className="contact_button"
               >
-                Write me
+                Message me
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
               </a>
             </div>
