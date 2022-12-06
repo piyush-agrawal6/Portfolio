@@ -27,7 +27,7 @@ function App() {
         {/* <Blog /> */}
         {/* <Testimonials /> */}
         <Contact />
-        <Resume />
+        {/* <Resume /> */}
       </main>
       <Footer />
       <ScrollUp />

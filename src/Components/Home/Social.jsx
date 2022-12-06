@@ -3,9 +3,8 @@ import React from "react";
 const Social = () => {
   return (
     <div className="home_social">
-    
       <a
-        href="https://www.linkedin.com/in/the-piyush-agrawal/"
+        href="https://www.linkedin.com/in/piyush-agrawal-me/"
         className="home_social_icon"
         target="_blank"
       >

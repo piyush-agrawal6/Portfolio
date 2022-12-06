@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      {/* <p>but but but you can call me Joy...</p> */}
+      {/* <p>but you can call me Joy...</p> */}
       <h3 className="home_subtitle">MERN Stack Developer</h3>
       <p className="home_description">
         I'm creative web developer based in India.

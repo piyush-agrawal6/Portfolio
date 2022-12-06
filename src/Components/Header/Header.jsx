@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
+import Res from "../../assets/Piyush-Agrawal-Resume.pdf";
 const Header = () => {
-  /* Toggle menu */
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -42,7 +42,16 @@ const Header = () => {
               </a>
             </li>
             <li className="nav_item" onClick={() => setToggle(!toggle)}>
-              <a href="#resume" className="nav_link">
+              <a
+                download=""
+                href={Res}
+                className="nav_link"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1gFYaxu-xdJ3QfySJtPubrL-_D0zQtN6-/view?usp=share_link"
+                  )
+                }
+              >
                 <i class="uil uil-blogger-alt nav_icon"></i>
                 Resume
               </a>

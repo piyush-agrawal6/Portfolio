@@ -43,6 +43,7 @@ const Contact = () => {
               <a
                 href="https://github.com/piyush-agrawal6"
                 className="contact_button"
+                target="_blank"
               >
                 Checkout
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
@@ -53,8 +54,9 @@ const Contact = () => {
               <h3 className="contact_card_title">LinkedIn</h3>
               <span className="contact_card_data">Piyush Agrawal</span>
               <a
-                href="https://www.linkedin.com/in/the-piyush-agrawal/"
+                href="https://www.linkedin.com/in/piyush-agrawal-me/"
                 className="contact_button"
+                target="_blank"
               >
                 Message me
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
