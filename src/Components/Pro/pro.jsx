@@ -49,14 +49,14 @@ const Projects = () => {
                   className="projects_button link"
                   target="blank"
                 >
-                  <i class="bx bx-link"></i>
+                  <i className="bx bx-link"></i>
                 </a>
                 <a
                   href={github}
                   className="projects_button github"
                   target="blank"
                 >
-                  <i class="bx bxl-github"></i>
+                  <i className="bx bxl-github"></i>
                 </a>
               </div>
             </div>

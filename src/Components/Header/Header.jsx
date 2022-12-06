@@ -52,7 +52,7 @@ const Header = () => {
                   )
                 }
               >
-                <i class="uil uil-blogger-alt nav_icon"></i>
+                <i className="uil uil-blogger-alt nav_icon"></i>
                 Resume
               </a>
             </li>

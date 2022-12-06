@@ -47,10 +47,10 @@ const Projects = () => {
               <p className="projects_category">{category}</p>
               <p className="projects_desc">{description}</p>
               <a href={project} className="projects_button link ">
-                <i class="bx bx-link"></i>
+                <i className="bx bx-link"></i>
               </a>
               <a href={github} className="projects_button github">
-                <i class="bx bxl-github"></i>
+                <i className="bx bxl-github"></i>
               </a>
             </div>
           );
