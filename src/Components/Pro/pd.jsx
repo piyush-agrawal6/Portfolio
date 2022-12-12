@@ -9,12 +9,12 @@ const ProjectData = [
   {
     id: 1,
     image: Work1,
-    title: "ShopBag",
+    title: "Myntra Clone",
     category: "MERN",
     description:
       "It is a ecommerce website with different categories and login signup functionality with checkout.",
-    project: "https://shopbag-ecommerce.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/ShopBag-Ecommerce-Website",
+    project: "https://sensational-nasturtium-fc4a95.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Myntra-Frontend",
     Tech: "MERN Stack",
   },
   {
@@ -55,12 +55,12 @@ const ProjectData = [
   {
     id: 5,
     image: Work5,
-    title: "Lovoda Clone",
+    title: "Sephora",
     category: "JavaScript",
     description:
-      "Lovoda clone with all functionalities like searching, adding products to cart, favourites and checkout.",
-    project: "https://clone-of-lovoda-dot-com.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/Lovoda-Clone",
+      "Sephora clone with all functionalities like searching, adding products to cart, favourites and checkout.",
+    project: "https://sephoraa-clone.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Sephora-clone",
     Tech: "HTML CSS JavaScript",
   },
   {
