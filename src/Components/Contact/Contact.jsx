@@ -3,10 +3,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(
       "service_g6mhlz1",
       "template_61ao7pz",
@@ -19,27 +17,30 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Contact Me</h2>
-      <span className="section__subtitle">Get In Touch</span>
+      <span className="section__subtitle"></span>
       <div className="contact_container container grid">
         <div className="contact_content ">
-          <h3 className="contact_title">Say Hi to me !</h3>
+          {/* <h3 className="contact_title"></h3> */}
           <div className="contact_info">
             <div className="contact_card">
               <i className="bx bx-mail-send contact_card_icon"></i>
-              <h3 className="contact_card_title">+91-8144110261</h3>
               <span className="contact_card_data">agrawaljoy1@gmail.com</span>
-              <a
-                href="mailto:test@example.com?subject=Testing out mailto!"
-                className="contact_button"
-              >
+              <a href="mailto:agrawaljoy1@gmail.com" className="contact_button">
                 Write me
+                <i className="bx bx-right-arrow-alt contact_button_icon"></i>
+              </a>
+            </div>
+            <div className="contact_card">
+              <i className="bx bx-mobile contact_card_icon"></i>
+              <h3 className="contact_card_title">+91-8144110261</h3>
+              <a href="tel:8144110291" className="contact_button">
+                Call me
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
               </a>
             </div>
             <div className="contact_card">
               <i className="bx bxl-github contact_card_icon"></i>
               <h3 className="contact_card_title">Github</h3>
-              <span className="contact_card_data">piyush-agrawal6</span>
               <a
                 href="https://github.com/piyush-agrawal6"
                 className="contact_button"
@@ -52,7 +53,6 @@ const Contact = () => {
             <div className="contact_card">
               <i className="bx bxl-linkedin contact_card_icon"></i>
               <h3 className="contact_card_title">LinkedIn</h3>
-              <span className="contact_card_data">Piyush Agrawal</span>
               <a
                 href="https://www.linkedin.com/in/piyush-agrawal-me/"
                 className="contact_button"
@@ -91,7 +91,7 @@ const Contact = () => {
                 name="project"
                 className="contact_form_input"
                 cols="30"
-                rows="10"
+                rows="15"
                 placeholder="Write about your project"
               ></textarea>
             </div>

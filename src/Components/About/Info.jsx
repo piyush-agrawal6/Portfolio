@@ -8,7 +8,7 @@ const Info = () => {
         <h3 className="about_title">Experience</h3>
         <span className="about_subtitle">Fresher</span>
       </div>
-      <div className="about_box">
+      <div className="about_box hide">
         <i className="bx bx-briefcase-alt about_icon"></i>
         <h3 className="about_title">Worked On</h3>
         <span className="about_subtitle">30+ Projects </span>

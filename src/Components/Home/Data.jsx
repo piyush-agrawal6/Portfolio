@@ -58,7 +58,8 @@ const Data = () => {
       {/* <p>but you can call me Joy...</p> */}
       <h3 className="home_subtitle">MERN Stack Developer</h3>
       <p className="home_description">
-        I'm creative web developer based in India.
+        I'm creative web developer based in India. Currently I am learning full
+        stack development at Masai school.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

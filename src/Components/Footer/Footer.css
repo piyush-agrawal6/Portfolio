@@ -12,6 +12,7 @@
 .footer_title {
   text-align: center;
   margin: var(--mb-2);
+  color: #0987d4;
 }
 .footer_link:hover {
   color: var(--title-color-dark);

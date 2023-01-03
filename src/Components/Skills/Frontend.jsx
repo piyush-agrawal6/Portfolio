@@ -1,5 +1,13 @@
 import React from "react";
-
+import html from "../../assets/1.png";
+import css from "../../assets/2.png";
+import js from "../../assets/3.png";
+import ts from "../../assets/4.png";
+import react from "../../assets/5.png";
+import img6 from "../../assets/6.png";
+import img7 from "../../assets/7.png";
+import img8 from "../../assets/8.png";
+import img9 from "../../assets/9.png";
 const Frontend = () => {
   return (
     <div className="skills_content">
@@ -7,48 +15,44 @@ const Frontend = () => {
       <div className="skills_box">
         <div className="skills_group">
           <div className="skills_data">
-            <i className="bx bxl-html5"></i>
-            <div>
-              <h3 className="skills_name">HTML5</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
+            <img src={html} alt="img" />
+            <p className="skills_name">HTML5</p>
           </div>
           <div className="skills_data">
-            <i className="bx bxl-css3"></i>
-            <div>
-              <h3 className="skills_name">CSS3</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
+            <img src={ts} alt="img" />
+            <p className="skills_name">TypeScript</p>
           </div>
           <div className="skills_data">
-            <i className="bx bxl-javascript"></i>
-            <div>
-              <h3 className="skills_name">JavaScript</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
+            <img src={img8} alt="img" />
+            <p className="skills_name">Chakra UI</p>
           </div>
         </div>
         <div className="skills_group">
           <div className="skills_data">
-            <i className="bx bxl-react"></i>
-            <div>
-              <h3 className="skills_name">React JS</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
+            <img src={css} alt="img" />
+            <p className="skills_name">CSS3</p>
           </div>
           <div className="skills_data">
-            <i className="bx bxl-redux"></i>
-            <div>
-              <h3 className="skills_name">Redux</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
+            <img src={react} alt="img" />
+            <p className="skills_name">React JS</p>
           </div>
           <div className="skills_data">
-            <i className="bx bxl-css3"></i>
-            <div>
-              <h3 className="skills_name">Chakra UI</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
+            <img src={img9} alt="img" />
+            <p className="skills_name">Ant Designs</p>
+          </div>
+        </div>
+        <div className="skills_group">
+          <div className="skills_data">
+            <img src={js} alt="img" />
+            <p className="skills_name">JavaScript</p>
+          </div>
+          <div className="skills_data">
+            <img src={img6} alt="img" />
+            <p className="skills_name">Redux</p>
+          </div>
+          <div className="skills_data">
+            <img src={img7} alt="img" />
+            <p className="skills_name">Figma</p>
           </div>
         </div>
       </div>
