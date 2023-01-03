@@ -13,20 +13,20 @@ const ProjectData = [
     category: "MERN",
     description:
       "It is a ecommerce website with different categories and login signup functionality with checkout.",
-    project: "https://sensational-nasturtium-fc4a95.netlify.app/",
+    project: "https://myntraa-clone.netlify.app/",
     github: "https://github.com/piyush-agrawal6/Myntra-Frontend",
     Tech: "MERN Stack",
   },
   {
     id: 2,
-    image: Work2,
-    title: "Food Bonanza",
-    category: "React",
+    image: Work5,
+    title: "Sephora Clone",
+    category: "MERN",
     description:
-      "Responsive restaurant website created using React Js. A figma file has been used for the overall design. ",
-    Tech: "HTML CSS React",
-    project: "https://food-bonanzaa.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/Restaurant-Website",
+      "Sephora clone with all functionalities like searching, adding products to cart, favourites and checkout.",
+    project: "https://sephoraa-clone.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Sephora-clone",
+    Tech: "MERN Stack",
   },
   {
     id: 3,
@@ -37,11 +37,21 @@ const ProjectData = [
       "A travel website where users can book airline tickets, hotel and vacation package.",
     project: "https://expedia-co-in.netlify.app/",
     github: "https://github.com/piyush-agrawal6/Expedia-Clone",
-    Tech: "React Chackra UI",
+    Tech: "React, Chakra UI",
   },
-
   {
     id: 4,
+    image: Work2,
+    title: "Food Bonanza",
+    category: "React",
+    description:
+      "Responsive restaurant website created using React Js. A figma file has been used for the overall design. ",
+    Tech: "HTML, CSS, React",
+    project: "https://food-bonanzaa.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Restaurant-Website",
+  },
+  {
+    id: 5,
     image: Work4,
     title: "Youtube Clone",
     category: "JavaScript",
@@ -49,30 +59,18 @@ const ProjectData = [
       "User can search for any video and can play it. YouTube APIhas been used to fetch the videos.",
     project: "https://youtube-clone-jsonly.netlify.app/",
     github: "https://github.com/piyush-agrawal6/youtube-clone-js",
-    Tech: "HTML CSS JavaScript",
-  },
-
-  {
-    id: 5,
-    image: Work5,
-    title: "Sephora",
-    category: "JavaScript",
-    description:
-      "Sephora clone with all functionalities like searching, adding products to cart, favourites and checkout.",
-    project: "https://sephoraa-clone.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/Sephora-clone",
-    Tech: "HTML CSS JavaScript",
+    Tech: "HTML, CSS, JavaScript",
   },
   {
     id: 6,
     image: Work6,
-    title: "NiftyPM Clone",
+    title: "Chat AI",
     category: "JavaScript",
     description:
-      "A project management website where user can add a public or private project and can keep track.",
-    project: "https://nifty-pm.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/NiftyPM-clone",
-    Tech: "HTML CSS JavaScript",
+      "Chat AI is a large language model chatbot developed by using OpenAI based on text-davinci-003 API.",
+    project: "https://chat-ai-bot.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/ChatAI-Bot",
+    Tech: "HTML, CSS, JavaScript",
   },
 ];
 

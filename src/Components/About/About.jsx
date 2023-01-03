@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Aboutimg from "../../assets/about.jpg";
+import Aboutimg from "../../assets/about1.png";
 import Resume from "../../assets/Piyush-Agrawal-Resume.pdf";
 import Info from "./Info";
 const About = () => {
