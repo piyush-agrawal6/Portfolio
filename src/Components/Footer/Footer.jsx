@@ -17,8 +17,8 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#blog" className="footer_link">
-              Blogs
+            <a href="#contact" className="footer_link">
+              Contact
             </a>
           </li>
         </ul>
@@ -30,13 +30,13 @@ const Footer = () => {
           >
             <i className="uil uil-linkedin-alt"></i>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/joy_agrawal_/"
             className="footer_social_link"
             target="_blank"
           >
             <i className="uil uil-instagram"></i>
-          </a>
+          </a> */}
           <a
             href="https://github.com/piyush-agrawal6"
             className="footer_social_link"
