@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer_copy">
-          &#169; CodeWithJoy! . All rigths reserved , 2022 .
+          &#169; CodeWithJoy! . All rigths reserved , 2023 .
         </span>
       </div>
     </footer>

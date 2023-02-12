@@ -1,4 +1,4 @@
-import Work1 from "../../assets/work-1.png";
+import Work1 from "../../assets/work-1.jpg";
 import Work2 from "../../assets/work-2.png";
 import Work3 from "../../assets/work-3.png";
 import Work4 from "../../assets/work-4.png";
@@ -9,12 +9,12 @@ const ProjectData = [
   {
     id: 1,
     image: Work1,
-    title: "Myntra Clone",
+    title: "Hospital management app",
     category: "MERN",
     description:
-      "It is a ecommerce website with different categories and login signup functionality with checkout.",
-    project: "https://myntraa-clone.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/Myntra-Frontend",
+      "Control all the management related to a hospital, like admitting patient , booking bed , creating reports.",
+    project: "https://hms-user-side.netlify.app/",
+    github: "https://github.com/piyush-agrawal6/Hospital-Management-System-User-Side",
     Tech: "MERN Stack",
   },
   {
