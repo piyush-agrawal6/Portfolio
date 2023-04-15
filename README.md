@@ -1,14 +1,10 @@
 # CodeWithJoy - Portfolio
 Welcome to my portfolio website. All my top projects , skills and education are shown here with a user friendly UI. React js has been used to make the overall design and functionality.
 
-<img src="https://i.ibb.co/SPS4w4Y/Blue-and-Black-Minimal-Geek-Code-Logo.png" width="500">
-
-
 ## Tech Stack
 
 - **Javascript**
 - **React**
-- **SASS**
 - **Git Calender**
 
 
