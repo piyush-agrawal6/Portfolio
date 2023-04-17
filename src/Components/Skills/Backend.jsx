@@ -10,7 +10,7 @@ import img17 from "../../assets/17.png";
 import img18 from "../../assets/18.png";
 const Backend = () => {
   return (
-    <div className="skills_content">
+    <div className="skills_content" >
       <h3 className="skills_title">Backend</h3>
       <div className="skills_box">
         <div className="skills_group">

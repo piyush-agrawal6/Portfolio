@@ -55,11 +55,10 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      {/* <p>but you can call me Joy...</p> */}
-      <h3 className="home_subtitle">MERN Stack Developer</h3>
+      <h3 className="home_subtitle">Full Stack Developer</h3>
       <p className="home_description">
-        I'm creative web developer based in India. Currently I am learning full
-        stack development at Masai school.
+        Hi, I'm Piyush Agrawal. A passionate Full Stack Developer based in
+        Odisha, India. 
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

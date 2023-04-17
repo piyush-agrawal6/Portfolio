@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 576px) {
   .skills_container {
-    grid-template-columns: 0.9fr;
+    grid-template-columns: 1fr;
   }
   .skills_group {
     row-gap: 1rem;
@@ -62,7 +62,7 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .skills_container {
     grid-template-columns: 5fr;
   }

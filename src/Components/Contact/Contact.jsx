@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
+    console.log(form.current);
     e.preventDefault();
     emailjs.sendForm(
       "service_g6mhlz1",

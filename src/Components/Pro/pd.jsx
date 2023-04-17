@@ -1,9 +1,7 @@
 import Work1 from "../../assets/work-1.jpg";
 import Work2 from "../../assets/work-2.png";
 import Work3 from "../../assets/work-3.png";
-import Work4 from "../../assets/work-4.png";
 import Work5 from "../../assets/work-5.png";
-import Work6 from "../../assets/work-6.png";
 
 const ProjectData = [
   {
@@ -14,7 +12,18 @@ const ProjectData = [
     description:
       "Control all the management related to a hospital, like admitting patient , booking bed , creating reports.",
     project: "https://hms-user-side.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/Hospital-Management-System-User-Side",
+    github:
+      "https://github.com/piyush-agrawal6/Hospital-Management-System-User-Side",
+    Tech: "MERN Stack",
+  },
+  {
+    id: 7,
+    title: "Just Print karo",
+    image: "https://i.ibb.co/1KJbnbC/4.jpg",
+    description: "JustPrintKaro is a printing-based website, where users can purchase different products, pay online and more.",
+    category: "MERN",
+    github: "https://github.com/piyush-agrawal6/PrintShop",
+    project: "https://justprintkaro.com/",
     Tech: "MERN Stack",
   },
   {
@@ -51,26 +60,15 @@ const ProjectData = [
     github: "https://github.com/piyush-agrawal6/Restaurant-Website",
   },
   {
-    id: 5,
-    image: Work4,
-    title: "Youtube Clone",
-    category: "JavaScript",
-    description:
-      "User can search for any video and can play it. YouTube APIhas been used to fetch the videos.",
-    project: "https://youtube-clone-jsonly.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/youtube-clone-js",
-    Tech: "HTML, CSS, JavaScript",
-  },
-  {
     id: 6,
-    image: Work6,
-    title: "Chat AI",
-    category: "JavaScript",
+    image: "https://i.ibb.co/JjyQFqw/6.jpg",
+    title: "NextJS Portfolio",
+    category: "NextJS",
     description:
-      "Chat AI is a large language model chatbot developed by using OpenAI based on text-davinci-003 API.",
-    project: "https://chat-ai-bot.netlify.app/",
-    github: "https://github.com/piyush-agrawal6/ChatAI-Bot",
-    Tech: "HTML, CSS, JavaScript",
+      "A developer-centric portfolio based on the theme of VSCode with multiple color theme options.",
+    project: "https://piyush-agrawal6.github.io/NextPortfolio/",
+    github: "https://github.com/piyush-agrawal6/NextPortfolio",
+    Tech: "NextJS , CSS-modules",
   },
 ];
 
