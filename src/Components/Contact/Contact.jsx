@@ -13,6 +13,7 @@ const Contact = () => {
       "6VaNuLsCbipTlzASX"
     );
     e.target.reset();
+    alert("Message sent Successfully!!")
   };
 
   return (
@@ -75,6 +76,7 @@ const Contact = () => {
                 name="name"
                 className="contact_form_input"
                 placeholder="Enter Your Name"
+                required
               />
             </div>
             <div className="contact_form_div">
@@ -84,6 +86,7 @@ const Contact = () => {
                 name="email"
                 className="contact_form_input"
                 placeholder="Enter Your Email"
+                required
               />
             </div>
             <div className="contact_form_div contact_form_area">
@@ -94,6 +97,7 @@ const Contact = () => {
                 cols="30"
                 rows="15"
                 placeholder="Write about your project"
+                required
               ></textarea>
             </div>
             <button className="button button--flex">
